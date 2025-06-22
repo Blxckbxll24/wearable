@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { useNavigate } from 'react-router-dom';
 import { BottomNavBar } from '../components/BottomNavbar'
 import { Settings, Info } from 'lucide-react';

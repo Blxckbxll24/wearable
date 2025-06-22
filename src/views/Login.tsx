@@ -74,7 +74,7 @@ export const LoginForm = () => {
                                 className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 bg-gray-50 dark:bg-gray-700 text-gray-900 dark:text-white transition-colors"
                             />
                         </div>
-                        <Link to={"/"}>
+                        <Link to={"/home"} className="block">
                             <button
                                 type="submit"
                                 className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 rounded-xl transition-colors"

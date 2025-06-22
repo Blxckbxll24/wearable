@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { BottomNavBar } from '../components/BottomNavbar';
 
 export const Dashboard = () => {

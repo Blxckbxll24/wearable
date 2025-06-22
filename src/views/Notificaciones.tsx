@@ -1,5 +1,4 @@
-// src/views/Notifications.tsx
-import React from 'react';
+
 import { BottomNavBar } from '../components/BottomNavbar';
 
 export const Notifications = () => {

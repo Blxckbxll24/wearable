@@ -8,7 +8,6 @@ import { ButtonConfigDetail } from './views/BotonConfig';
 import { Notifications } from './views/Notificaciones';
 import { Home } from './views/Home';
 
-
 function App() {
   return (
     <Router>
@@ -18,11 +17,12 @@ function App() {
         <Route path="/profile" element={<PerfilConNavegacion />} />
         <Route path="/estadisticas" element={<Dashboard />} />
         <Route path="/botones" element={<ButtonConfigPage />} />
-       <Route path="/config/:id" element={<ButtonConfigDetail />} />
-       <Route path="/notificaciones" element={<Notifications />} />
+        <Route path="/config/:id" element={<ButtonConfigDetail />} />
+        <Route path="/notificaciones" element={<Notifications />} />
+        <Route path="/home" element={<Home />} />
 
-        <Route path="/" element={<Home />} />
-        {/* Aquí puedes agregar más rutas protegidas luego */}
+        {/* Redirección al login al inicio */}
+        <Route path="/" element={<Navigate to="/login" replace />} />
       </Routes>
     </Router>
   );
