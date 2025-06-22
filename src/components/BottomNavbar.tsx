@@ -5,7 +5,7 @@ export const BottomNavBar = () => {
   const location = useLocation();
 
   const navItems = [
-    { name: 'Home', icon: <Home />, to: '/' },
+    { name: 'Home', icon: <Home />, to: '/home' },
     { name: 'Botones', icon: <LayoutGrid />, to: '/botones' }, // redirige aquí
     { name: 'Estadísticas', icon: <BarChart2 />, to: '/estadisticas' },
     { name: 'Notificaciones', icon: <Bell />, to: '/notificaciones' },
